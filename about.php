@@ -7,6 +7,7 @@ include "db.php"; // include database connection if needed
 $user_logged_in = isset($_SESSION['user_id']);
 $user_name = $user_logged_in ? $_SESSION['name'] : '';
 ?>
+
 <!doctype html>
 <html lang="en">
 <head>
